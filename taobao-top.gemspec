@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "hashie", '~> 2.0'
-  spec.add_dependency "activesupport", ['>= 3.2','< 4']
+  spec.add_dependency "activesupport"
   spec.add_dependency "rest-client", "~> 1.6.0"
   spec.add_dependency "omniauth", '~> 1.1'
   spec.add_dependency "omniauth-oauth2", '~> 1.1'
